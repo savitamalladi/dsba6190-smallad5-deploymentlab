@@ -10,10 +10,10 @@ jobs:
   terraform:
     name: "Terraform Deployment"
     env:
-      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
-      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-      ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+      ARM_CLIENT_ID: ${6eabb5f8-ba34-4c88-be40-890cdf93ad7e}
+      ARM_CLIENT_SECRET: ${IT.8Q~enI2Hyp1hhhseI9cG6C7O7J~uzQeeIBbRm}
+      ARM_SUBSCRIPTION_ID: ${b92ea061-7db2-40ee-ad4a-cee871832b64}
+      ARM_TENANT_ID: ${88d59d7d-aecb-41b2-90c5-55595de02536}
     runs-on: ubuntu-latest
 
     defaults:
